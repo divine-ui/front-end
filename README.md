@@ -1,42 +1,29 @@
-# Awesomity Frontend Challenge
+# TaskForce 3.0 Frontend Challenge
 
-Create a To-Do App. The To-Do App should allow the following operations on a todo item:
+This challenge consists of creating a simple one page COVID calculator that pulls data from an open COVID API. 
 
-Create, Update, Read, Delete
+Mockups for the page can be found here https://xd.adobe.com/view/251433d6-085b-4837-977c-e66e1107d05a-7047/
 
-### 🏗Object/Modal Structure
+And the open API can be found here
+https://documenter.getpostman.com/view/11144369/Szf6Z9B3?version=latest
 
-A todo item is made of:
 
-- Title
-- Description
-- Priority (LOW,MEDIUM,HIGH)
-- CreateDate(date of creation of the todo item)
-- ModifiedDate(date of modification of the todo item)
 
 ### 🔖Requirements
 
-- Someone can create / update a todo item by sending:
 
-  - title
-  - description
-  - priority
+- The UI should follow the same specs, color theme and assets which can be found here: https://xd.adobe.com/view/251433d6-085b-4837-977c-e66e1107d05a-7047/specs/
+- Mobile flexibility should be taken into account.
 
-  The date of creation & modification should be time stamped automatically when created
-
-- All of the fields are required
-- Someone can read one or many todo items
-- Someone can delete a todo item
-- THE DATA SHOULD BE STORED LOCALLY (local storage,...)
-- Handle global state management of the data (todo item(s)) using redux
-- Make use of the assets & mockups found in this repo in their respective folders 
 - Your project should be on an online repository (Gitlab, Github,...)
+- Impress us!
+
 
 ### 📝Submission
 - Send us your submission as an email to team@awesomity.rw.
 - The subject of the email should be `Task Force Challenge-{NAME_OF_THE_CHALLENGE}` eg: Task Force Challenge-Frontend
 - The content of the email should have your full names, personal phone number as well as the git repo link of the challenge
-- Deadline: 24th Feb at noon, submit before then
+- Deadline: 22nd Aug at noon, submit before then
 
 ### 👷🏽‍♀️Best Practices
 
@@ -50,8 +37,3 @@ A todo item is made of:
 ### ✨Bonus
 
 - Have a Dockerized environment(Dockerfile, docker-compose.yml)
-- Add a option to link a picture with a to-do item(File upload)
-- Integrate with [Firestore](https://firebase.google.com/docs/firestore) where the todo items will be stored and retreived(Having same CRUD operations working with Firebase
-- Add a search & filter option:
-  - Search by todo's title
-  - Filter by todos' priority or date of creation
