@@ -14,7 +14,7 @@ https://documenter.getpostman.com/view/11144369/Szf6Z9B3?version=latest
 
 - The UI should follow the same specs, color theme and assets which can be found here: https://xd.adobe.com/view/251433d6-085b-4837-977c-e66e1107d05a-7047/specs/
 - Mobile flexibility should be taken into account.
-
+- Use pure CSS or any library/framework you are most comfortable with. 
 - Your project should be on an online repository (Gitlab, Github,...)
 - Impress us!
 
